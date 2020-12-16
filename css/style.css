@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+::selection {
+  background:#c1928b;
+    color:#fff;/* WebKit/Blink Browsers */
+}
+::-moz-selection {
+   background:#c1928b;
+    color:#fff;/* Gecko Browsers */
+}
+*{
+    box-sizing: border-box;
+}
+::selection {
+  background:#c1928b;
+    color:#fff;/* WebKit/Blink Browsers */
+}
+::-moz-selection {
+   background:#c1928b;
+    color:#fff;/* Gecko Browsers */
+}
+.banner{
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    height: 660px;
+    background-size: cover;
+}
+
+nav{
+    padding: 0;
+    margin: 0;
+}
+.jumbotron-header {
+    
+    padding: 10px 0px;
+}
+.navLink{
+   font-family: 'Montserrat', sans-serif;
+   color: #ffffff;
+   font-size: 15px;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+.navLink:hover{
+   text-decoration: none; 
+   color:  #e8b417;
+}
+.active1{
+   color:  #e8b417;  
+}
+.jumbotron-footer{
+   background:#060506 !important;
+	border-radius: 0px !important;
+	background-repeat: no-repeat;
+    background-size: cover;
+	text-align:left;
+	padding: 100px 0px 100px 0px !important;
+    margin: 0px;
+}
+.footer-heading{
+	color: #fff;
+	font-size:16px;
+	text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+	 font-family: 'Montserrat', sans-serif;
+ 
+}
+.footer-links{
+	color: #eee;
+	font-size:14px;
+	text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 8px 0px 8px 0px;
+    line-height: 32px !important;
+}
+.footer-links:hover{
+	color: #fff !important;
+    text-decoration: none;
+}
+.footer-social-icon{
+    color: #fff;
+    font-size: 15px;
+}
+.logo{
+     color: #ffffff !important;
+     font-weight: bold;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 26px;
+     letter-spacing: 2px;
+}
+.topPadding{
+    position: relative;
+    top: 170px;
+    left: 30px;
+}
+.bigHeading{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 58px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+.bigHeading span{
+    color:  #e8b417;
+}
+.consulButton{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color:  #e8b417;
+    padding: 12px 19px;
+    border-radius: 30px;
+}
+.consulButton:hover{
+    border: 2px solid  #e8b417;
+    background-color: transparent;
+    color: #ffffff;
+    text-decoration: none;
+}
+.greyBack{
+   background-color:  #f2f2f2;
+    padding: 80px 0px;
+}
+.bigHeading1{
+     font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 44px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.bigHeading1 span{
+    color:  #e8b417;
+}
+.subHeading{
+     font-family: 'Montserrat', sans-serif;
+    color: #4d4d4d;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 1.6;
+}
+.consulButtonLearn:hover{
+    color: #000000;
+}
+.iconBox{
+flex: 0 0 70px;
+width: 70px;
+height: 70px;
+position: relative;
+border-radius: 50%;
+background-color:#333333;
+margin-right: 20px;   
+}
+.icon{
+    color: #ffffff;
+display: inline-block;
+position: absolute;
+top: 30%;
+font-size: 27px;
+left: 30%;
+}
+.navLink1{
+    color: #4d4d4d;
+    padding: 0px;
+}
+.navLink1:hover{
+    color: #4d4d4d;
+}
+.active2{
+    font-size: 17px;
+    padding: 0px;
+}
+.heading{
+      font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.6; 
+    letter-spacing: 1px;
+}
+
+.slideanim {visibility:hidden;}
+.slide {
+  /* The name of the animation */
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  /* The duration of the animation */
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  /* Make the element visible */
+  visibility: visible;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+
+
+
+/* Extra small devices (phones, 300px and down)  start*/
+@media only screen and (max-width: 300px) {
+   
+    
+}
+
+
+/* Extra small devices (phones, 320px and down)  start */
+@media only screen and (max-width: 320px) {
+
+
+}
+
+
+/* Medium devices ( 767px and down) start */
+@media only screen and (max-width: 767px){ 
+
+
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up)  start*/
+@media only screen and (min-width: 768px) {
+ 
+    
+}
+    
+
+/* Medium devices ( 768px and down) start */
+@media only screen and (max-width: 768px){ 
+
+    
+
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up)  start*/
+@media only screen and (min-width: 992px) {
+    
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up)  start*/
+@media only screen and (min-width: 1200px) {
+ 
+   
+}
