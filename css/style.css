@@ -38,8 +38,7 @@ nav{
    font-family: 'Montserrat', sans-serif;
    color: #ffffff;
    font-size: 15px;
-    padding: 0px 10px;
-    text-decoration: none;
+   text-decoration: none;
 }
 .navLink:hover{
    text-decoration: none; 
@@ -217,6 +216,93 @@ left: 30%;
   }
 }
 
+.darkGreyBack{
+    background-color: #d9d9d9;
+    padding: 80px 0px 4px 0px; 
+}
+.whiteBox{
+     background-color: #ffffff;
+    padding: 40px 30px;
+}
+.subHeadingBlack{
+    color: #000000;
+    font-weight: bold;
+    line-height: 26px;
+}
+.profileImage{
+   width: 50px;
+   height: 50px;
+ 
+}
+.extraMargin{
+     margin: 20px 10px 20px 0px;
+}
+.headingSlider{
+    margin-bottom: -7px;
+}
+.carousel-indicators li{
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: #e8b417;
+}
+.carousel-control-next, .carousel-control-prev{
+    color: #e8b417;
+    top: 450px;
+    opacity: 1;
+}
+.carousel-control-next-icon{
+    background-color: #e8b417;
+}
+.carousel-control-prev-icon{
+    background-color: #e8b417;
+}
+.carousel-control-next-icon:hover{
+    background-color: #000000;
+}
+.carousel-control-prev-icon:hover{
+    background-color: #000000;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    width: 30px;
+    height: 30px;
+}
+.whiteBox1{
+    border-radius: 10px;
+    height: 100%;
+}
+.active3{
+    font-size: 15px;
+    padding: 20px 0px;
+}
+.iconBox1{
+    height: 60px;
+    width: 60px;
+    padding-bottom: 20px;
+}
+.icon1{
+    font-size: 24px;
+    color: #e8b417;
+}
+.lstImg{
+   height: 430px;
+    width: 100%;
+    border-radius: 10px;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgCnt{
+  position: absolute;  
+    padding: 10px 50px;
+}
+.bigHeading2{
+    font-size: 38px;
+    margin: 0px auto;
+}
+
+
+
 
 
 
@@ -237,21 +323,33 @@ left: 30%;
 /* Medium devices ( 767px and down) start */
 @media only screen and (max-width: 767px){ 
 
-
+    .whiteBox{
+        padding-bottom: 20px;
+    }
 }
 
 
 
 /* Medium devices (landscape tablets, 768px and up)  start*/
 @media only screen and (min-width: 768px) {
- 
+  .navLink{
+    padding: 0px 10px;     
+ }
     
 }
     
 
 /* Medium devices ( 768px and down) start */
 @media only screen and (max-width: 768px){ 
-
+    .bigHeading{
+        font-size: 35px;
+    }
+    .bigHeading1{
+        font-size: 27px;
+    }
+    .navLink{
+        font-size: 12px; 
+    }
     
 
 }
@@ -260,6 +358,9 @@ left: 30%;
 
 /* Large devices (laptops/desktops, 992px and up)  start*/
 @media only screen and (min-width: 992px) {
+ .navLink{
+    padding: 0px 4px;     
+ }
     
 }
 
@@ -267,6 +368,16 @@ left: 30%;
 
 /* Extra large devices (large laptops and desktops, 1200px and up)  start*/
 @media only screen and (min-width: 1200px) {
+ .carousel-control-prev{
+    left: 454px;
+}
+.carousel-control-next{
+    left: 489px;
+}
+.navLink{
+    padding: 0px;     
+}
+
  
    
 }
